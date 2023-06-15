@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+
+footer {
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  background-color:  rgb(211, 22, 0);
+  line-height: 110%;
+}
+
+
+footer .footer-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+
+footer .footer-container .copyright-container{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  flex: 1; 
+  font-family: 'Archivo', sans-serif;
+  font-size: 90%;
+  line-height: 110%;
+  color: #fff;
+}
+
+.footer-container .copyright-container a{
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-weight: bolder;
+}
+
+footer .footer-container .social-container{
+  color: #fff;
+  display: flex;
+  align-items: stretch;
+}
+
+footer .footer-container .social-container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: green;
+  color: #fff;
+  font-size: 80%;
+  padding: auto;
+}
+
+
+footer .footer-container .social-container a i {
+  font-size: 150%;
+  padding: 0.5rem;
+}
+
+
+footer .footer-container .social-container a[id=facebook-logo]{
+  background: blue;
+}
+
+
+footer .footer-container .social-container a[id=facebook-logo]:hover{
+  background: white;
+  color: blue
+}

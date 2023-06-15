@@ -1,0 +1,9 @@
+User-agent: *
+Sitemap: http://www.quata.sp.gov.br/coronavirus/sitemap.xml
+
+Disallow: /css/
+Disallow: /img/
+Disallow: /javascript/
+Disallow: /json/
+Allow: /
+Allow: /noticias/
